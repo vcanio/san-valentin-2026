@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi San Valentín ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Intro Envelope Overlay -->
+    <div id="intro-overlay" class="intro-overlay">
+        <div class="intro-envelope">
+            <div class="intro-flap"></div>
+            <div class="intro-body"></div>
+            <div class="intro-seal" id="intro-seal">
+                <i class="fas fa-heart"></i>
+                <span>Para Ti</span>
+            </div>
+        </div>
+    </div>
+
+    <main id="main-content" class="hidden-content">
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="floating-hearts"></div>
+        <div class="hero-content">
+            <h1 class="title">Feliz San Valentín</h1>
+            <h2 class="subtitle">Mi Koalita 🐨</h2>
+            <p class="hero-text">"En mi mundo, el sol sale 2 veces..."</p>
+            <a href="#gallery" class="btn-primary">Descubrir <i class="fas fa-heart"></i></a>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2 class="section-title">Nuestros Momentos</h2>
+        <div class="photo-grid">
+            <!-- Placeholders -->
+            <div class="photo-card" style="--rot: -2deg">
+                <div class="img-wrapper">
+                    <img src="assets/images/WhatsApp Image 2026-02-13 at 20.03.43 (1).jpeg" alt="Momento 1">
+                </div>
+            </div>
+            <div class="photo-card" style="--rot: 3deg">
+                <div class="img-wrapper">
+                    <img src="assets/images/WhatsApp Image 2026-02-13 at 20.03.43.jpeg" alt="Momento 2">
+                </div>
+
+            </div>
+            <div class="photo-card" style="--rot: -1deg">
+                <div class="img-wrapper">
+                    <img src="assets/images/WhatsApp Image 2026-02-13 at 20.03.44.jpeg" alt="Momento 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coupons Section -->
+    <section class="coupons" id="coupons">
+        <h2 class="section-title">Tu Cuponera de Amor 🎟️</h2>
+        <p class="section-subtitle">Válido: Por siempre</p>
+        <div class="coupon-grid">
+            <!-- Coupon 1 -->
+            <div class="ticket">
+                <div class="ticket-left">
+                    <div class="ticket-hole"></div>
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="ticket-right">
+                    <h3>Cita de Handrolls 🍣</h3>
+                    <p>Todo lo que puedas comer.</p>
+                    <span class="validity">Válido: Por siempre</span>
+                </div>
+            </div>
+
+            <!-- Coupon 2 -->
+            <div class="ticket">
+                <div class="ticket-left">
+                    <div class="ticket-hole"></div>
+                    <i class="fas fa-video"></i>
+                </div>
+                <div class="ticket-right">
+                    <h3>Noche de Pelis 🎬</h3>
+                    <p>con cabritas y dulcecitos.</p>
+                    <span class="validity">Válido: Por siempre</span>
+                </div>
+            </div>
+
+            <!-- Coupon 3 -->
+            <div class="ticket">
+                <div class="ticket-left">
+                    <div class="ticket-hole"></div>
+                    <i class="fas fa-spa"></i>
+                </div>
+                <div class="ticket-right">
+                    <h3>Masaje Relajante 💆‍♀️</h3>
+                    <p>puro relax.</p>
+                    <span class="validity">Válido: Por siempre</span>
+                </div>
+            </div>
+
+             <!-- Coupon 4 -->
+             <div class="ticket">
+                <div class="ticket-left">
+                    <div class="ticket-hole"></div>
+                    <i class="fas fa-ice-cream"></i>
+                </div>
+                <div class="ticket-right">
+                    <h3>Postre Sorpresa 🍦</h3>
+                    <p>Tu dulce favorito osea yo.</p>
+                    <span class="validity">Válido: Por siempre</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="final-surprise">
+        <p>¿Quieres ser mi San Valentín?</p>
+        <button id="confetti-btn" class="btn-yes">¡Sí! ❤️</button>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+    </main>
+</body>
+</html>
